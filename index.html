@@ -12,6 +12,7 @@
 
             p {
                 font-size: 1.3em;
+                text-align: justify;
             }
 
             li {
@@ -36,6 +37,10 @@
             .freecodecamp {
                 background-color: #00650F;
             }
+
+            .linkedin {
+                fill: #1977B3;
+            }
             
             .header {
                 position: fixed;
@@ -47,10 +52,16 @@
                 font-size: 3vw;
                 background-color: #9FE3B4;
                 display: block;
+                box-shadow: 0 5px 5px #ddd;
+            }
+
+            .header h1 {
+                color: #000;
+                text-shadow: 5px 5px 3px #ddd;
             }
 
             main {
-                margin-top: 85px;
+                margin-top: 90px;
                 margin-bottom: 50px;
                 padding-right: 3%;
                 padding-left: 3%;
@@ -64,6 +75,7 @@
                 font-size: 3vw;
                 background-color: #9FE3B4;
                 text-align: center;
+                box-shadow: 0 -5px 5px #ddd;
             }
 
             @media (min-width: 500px) {               
@@ -111,13 +123,16 @@
             <h1>Mohammad Moghimi</h1>
         </header>
         <main>
-            <p>I finished my studies in MSc. Computer science at University of Hertfordshire, October 2017. During my studies and after that I worked on a number of projects:</p>
-            <ol>
-                <li>Developing a website for a local business using wordpress.</li>
-                <li>Design and development of a website to collect data of Iranian Football league using Django (Python framework) and PostgreSQL.</li>
-                <li>Developing a data miner to collect news from news agencies and also some twitter data (for a social study project) using Python</li>
-            </ol>
-            <p>My MSc. programme was via distance-learning. At the same time I worked on almost all of my projects remotely and individually. Therefore, this programme would be a great opportunity for me to improve  my team working and interpersonal skills in the field of web application development. Moreover, this programme will help me to improve my technical skills and prepare me for my career.</p>
+            <section id="summary">
+                <h2>Summary</h2>
+                <p>I finished my studies in MSc. Computer science at University of Hertfordshire, October 2017. During my studies and after that I worked on a number of projects:</p>
+                <ol>
+                    <li>Developing a website for a local business using wordpress.</li>
+                    <li>Design and development of a website to collect data of Iranian Football league using Django (Python framework) and PostgreSQL.</li>
+                    <li>Developing a data miner to collect news from news agencies and also some twitter data (for a social studies project) using Python</li>
+                </ol>
+                <p>My MSc. programme was via distance-learning. At the same time I worked on almost all of my projects remotely. However, I cooperate and communicate with other team members and managers online, I always look for an opportunity to work in a team and experience different parts of development lifecycle.  Therefore, this programme would be a great opportunity for me to improve  my team working and interpersonal skills in the field of web application development. Moreover, this programme will help me to improve my technical skills and prepare me for my career.</p>
+            </section>
         </main>
         <footer class="footer">
             <a href="https://github.com/moghimimohammad/moghimimohammad.github.io" target="_blank">
@@ -129,6 +144,10 @@
             
             <a href="https://www.codewars.com/users/moghimimohammad" target="_blank">
                 <img class="icon codewars" src="codewars.svg" alt="" >
+            </a>
+
+            <a href="https://www.linkedin.com/in/mohammad-moghimi/" target="_blank">
+                <img class="icon linkedin" src="linkedin.svg" alt="" >
             </a>
         </footer>
             
